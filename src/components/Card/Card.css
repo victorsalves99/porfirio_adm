@@ -1,0 +1,16 @@
+.card {
+    text-decoration: none;
+    width: 18rem;
+    text-align: start;
+  }
+  .card-title{
+    text-align: center;
+  }
+  .card .btn {
+    background-color: #008000;
+    color: #fff;
+    text-align: end;
+  }
+  .card-img-top {
+    height: 250px;
+  }

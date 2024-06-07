@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 50px 0;
+}
+.home .title {
+    width: 50%;
+}
+.home .input-group {
+    width: 400px;
+}
+
+.lista_de_veiculos{
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 30px;
+}

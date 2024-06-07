@@ -1,0 +1,20 @@
+.navbar img {
+    width: 200px;
+}
+.nav{
+    gap: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: .8s;
+    color: #fff;
+    opacity: .6;
+}
+
+.nav a:hover{
+    opacity: 1;
+    transition: .3s;
+    color: #fff;
+}
