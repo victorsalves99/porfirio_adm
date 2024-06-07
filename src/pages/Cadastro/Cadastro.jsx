@@ -13,7 +13,7 @@ const Cadastro = () => {
   async function cadastrar(ev) {
     ev.preventDefault();
     const headers = {
-      "Authorization": `Bearer ${"porfirioToken",data.data.token}`,
+      "Authorization": `Bearer ${localStorage.getItem("porfirioToken")}`,
       "Content-Type": "multipart/form-data", // Se você estiver enviando JSON
     };
     const descricao_formatada = descricao

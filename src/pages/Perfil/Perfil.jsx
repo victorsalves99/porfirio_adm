@@ -21,10 +21,9 @@ const Perfil = () => {
 
   async function deletarCaminhão() {
 
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGJlMmE1NDdkNDA5ZDdjMjk1ZDhjOSIsImlhdCI6MTcxNjMzMzY5NH0.99heBIii94AYn0_hRSJnTUEavI9of2dUT9W8pMCHNj4"
 
     const headers = {
-      'Authorization':`Bearer ${token}`,
+      'Authorization':`Bearer ${localStorage.getItem("porfirioToken")}`,
       'Content-Type':'application/json' // Se você estiver enviando JSON
     }
     await axios
